@@ -35,14 +35,15 @@ body {
 	width: 100px;
 	height: 20px;
 	position: absolute;
-	border: 1px solid;
+	background: #dae0e5;
 	display: none;
 }
 
 .progress-line {
 	width: 0;
 	height: 100%;
-	background: #0f0;
+	background: #28a745;
+    transition: all, .25s;
 	position: absolute;
 }
 
