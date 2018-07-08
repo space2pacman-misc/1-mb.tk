@@ -1,0 +1,62 @@
+@font-face {
+	font-family: Open-sans;
+	src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+body {
+	margin: 0;
+	font-family: Open-sans;
+}
+
+.container {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.add-file {
+	position: absolute;
+}
+
+.link {
+	position: absolute;
+	display: none;
+}
+
+.anew {
+	cursor: pointer;
+	border-bottom: 1px solid;
+    display: inline-block;
+    line-height: 14px;
+}
+
+.progress-bar {
+	width: 100px;
+	height: 20px;
+	position: absolute;
+	border: 1px solid;
+	display: none;
+}
+
+.progress-line {
+	width: 0;
+	height: 100%;
+	background: #0f0;
+	position: absolute;
+}
+
+.file {
+	display: none;
+}
+
+.file-block {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.file-link {
+	color: black;
+}
