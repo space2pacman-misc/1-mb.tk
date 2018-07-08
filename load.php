@@ -22,7 +22,7 @@
 			move_uploaded_file($tmp_dir, $new_dir);
 			mysql_query("INSERT INTO files(file_name, file_url, file_link) VALUES('$file_name','$new_dir','$link')");
 
-			echo "http://$_SERVER[HTTP_HOST]/$link";
+			echo "$_SERVER[HTTP_HOST]/$link";
 	}
 
 	function generateRandomString($length = 10) {
